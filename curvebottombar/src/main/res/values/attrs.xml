@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurveBottomBar">
+        <attr name="bottomBarColor" format="color"/>
+        <attr name="curveRadius" format="dimension"/>
+
+    </declare-styleable>
+</resources>

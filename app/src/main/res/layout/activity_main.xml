@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_add"
+            android:layout_marginBottom="35dp"
+            android:layout_alignParentBottom="true"/>
+
+    <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+        <com.akshay.library.CurveBottomBar
+                xmlns:cbb="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/customBottomBar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:itemIconTint="@color/grey"
+                android:layout_gravity="bottom"
+                cbb:bottomBarColor="@color/yellow"
+                cbb:curveRadius="25dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>
