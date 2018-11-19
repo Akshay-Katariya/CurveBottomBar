@@ -1,7 +1,6 @@
 # Curve Bottom Bar
 
-![Screenshot](screenshot1.png)
-![Demo](demo1.gif)
+![Demo 1](screenshot1.png) ![Demo 2](demo2.gif)
 
 # Download
 
@@ -35,12 +34,16 @@ dependencies {
 
 # Customization options 
 ```
-cbb:bottomBarColor="@color/yellow"
-cbb:curveRadius="25dp"
+app:bottomBarColor="@color/yellow"
+app:curveRadius="25dp"
 ```
 
 #### You can even set values at runtime:
 ```
+private CurveBottomBar cbb;
+
+cbb = findViewById(R.id.customBottomBar);
+
 cbb.setBottomBarColor(getResources().getColor(R.color.yellow));
 cbb.setCurveRadius(52);
 ```
