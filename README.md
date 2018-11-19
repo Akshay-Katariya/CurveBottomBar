@@ -24,14 +24,13 @@ dependencies {
 # Usage
 ```
 <com.akshay.library.CurveBottomBar
-                xmlns:cbb="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/customBottomBar"
-                android:layout_width="match_parent"
-                android:layout_height="56dp"
-                app:itemIconTint="@color/grey"
-                android:layout_gravity="bottom"
-                cbb:bottomBarColor="@color/yellow"
-                cbb:curveRadius="25dp"/>
+            android:id="@+id/curveBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:itemIconTint="@color/grey"
+            android:layout_gravity="bottom"
+            app:bottomBarColor="@color/yellow"
+            app:curveRadius="25dp"/>
 ```
 
 # Customization options 

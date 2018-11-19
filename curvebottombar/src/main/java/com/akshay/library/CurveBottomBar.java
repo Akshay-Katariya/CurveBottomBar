@@ -62,7 +62,7 @@ public class CurveBottomBar extends BottomNavigationView {
         }
 
         TypedArray ta = getContext().obtainStyledAttributes(set, R.styleable.CurveBottomBar);
-        int bottomBarColor = ta.getColor(R.styleable.CurveBottomBar_bottomBarColor, Color.WHITE);
+        int bottomBarColor = ta.getColor(R.styleable.CurveBottomBar_bottomBarColor, Color.YELLOW);
         CURVE_CIRCLE_RADIUS = ta.getDimensionPixelSize(R.styleable.CurveBottomBar_curveRadius, 52);
 
         mPaint.setColor(bottomBarColor);
